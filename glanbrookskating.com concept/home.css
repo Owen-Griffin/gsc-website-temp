@@ -1,0 +1,248 @@
+
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+#topBar {
+    color: #1777cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* center vertically */
+    text-align: center;
+    justify-content: center;
+    height: auto;
+}
+#topBarLogo {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+}
+#topBarLogo img {
+    max-width: 143px;
+    height: auto;
+    object-fit: contain;
+    object-position: center center;
+}
+#topBarText {
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#topBarText h1 {
+    font-size: 3vw;
+}
+#topBarText p {
+    font-size: 2vw;
+}
+#otherTopBarLogo {
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+}
+#otherTopBarLogo img {
+    width: 143px;
+    height: 143px;
+    object-fit: contain;
+    object-position: center center;
+}
+@media only screen and (max-width: 572px) {
+    #otherTopBarLogo img, #topBarLogo img {
+        display: none;
+    }
+}
+
+
+
+#menuBar {
+    width: 100%;
+    height: 40px;
+    background-color: #1777cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuBarText {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+
+
+#registrationCallToAction {
+    background-color: #bf0c0c;
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+    display: grid;
+    place-items: center;
+}
+#registrationCallToActionText {
+    color: #ffffff;
+    font-size: 2.7vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#aboutGSCBackground {
+    padding-top: 35px;
+    width: 100%;
+    height: auto;
+    background-color: #b6d0ff; /* #b6d0ff */
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+#aboutGSCText {
+    display: block;
+    width: 50%;
+    transform: translate(50%);
+}
+#aboutGSCVideo {
+    padding-top: 30px;
+}
+#aboutGSCBackground h1 {
+    font-size: 6vw;
+}
+#aboutGSCBackground p {
+    font-size: 2.5vw;
+}
+
+#welcomeToGSCBackground {
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+    background-color: #b6d0ff;
+    background-clip: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#welcomeToGSCBackground h1 {
+    font-size: 6vw;
+}
+#welcomeToGSCBackground p {
+    font-size: 2.5vw;
+}
+#welcomeToGSCTextHolder {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.gridclass {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 960px;
+
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 1240px) {
+    .gridclass {
+      display: inline;
+      justify-content: center;
+      max-width: 960px;
+      padding-bottom: 20px;
+    }
+}
+#homepageRegisterLinkHolder {
+    height: 315px;
+    width: 560px;
+    background-color: #1777cb;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#homepageRegisterLink {
+    font-size: 56px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footerBackdrop {
+    background-color: #727373;
+    width: 100%;
+    height: 300px;
+
+    background-clip: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+#contactInfo {
+    font-size: 20px;
+    color: #ffffff;
+}
+#contactInfo a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+#contactInfo a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+#footerCopyrightBar {
+    background-color: #f5f6f8;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 75%;
+}
+#copyrightText {
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+

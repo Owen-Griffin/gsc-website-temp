@@ -1,0 +1,197 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+#topBar {
+    color: #1777cb;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* center vertically */
+    text-align: center;
+    justify-content: center;
+    height: auto;
+}
+#topBarLogo {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+}
+#topBarLogo img {
+    max-width: 143px;
+    height: auto;
+    object-fit: contain;
+    object-position: center center;
+}
+#topBarText {
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#topBarText h1 {
+    font-size: 3vw;
+}
+#topBarText p {
+    font-size: 2vw;
+}
+#otherTopBarLogo {
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+}
+#otherTopBarLogo img {
+    width: 143px;
+    height: 143px;
+    object-fit: contain;
+    object-position: center center;
+}
+@media only screen and (max-width: 572px) {
+    #otherTopBarLogo img, #topBarLogo img {
+        display: none;
+    }
+}
+
+
+
+#menuBar {
+    width: 100%;
+    height: 40px;
+    background-color: #1777cb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuBarText {
+    text-decoration: none;
+ 
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#coachesBackground {
+    padding-top: 35px;
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    background-color: #b6d0ff;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+.coachProfile {
+    padding-bottom: 2vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2vw; /* Adjust the gap between the columns if needed */;
+    align-items: center;
+    justify-content: center;
+}
+.coachImage {
+    grid-column: 1;
+    justify-self: center;
+    width: 350px;
+    height: 350px;
+}
+.coachTextHolder {
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff;
+    position: relative;
+    grid-column: 2;
+    justify-self: center;
+}
+.coachTextHolder h1 {
+    font-size: 2.5vw;
+}
+.coachTextHolder p {
+    font-size: 1.6vw;
+}
+.emailHolder {
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+#boardDirectorsBackground {
+    padding-top: 35px;
+ 
+    font-size: 2vw;
+    width: 100%;
+    height: auto;
+    background-color: #b6d0ff;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footerBackdrop {
+    background-color: #727373;
+    width: 100%;
+    height: 300px;
+
+    background-clip: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+#contactInfo {
+    
+    font-size: 20px;
+    color: #ffffff;
+}
+#contactInfo a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+#contactInfo a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+#footerCopyrightBar {
+    background-color: #f5f6f8;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+ 
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 75%;
+}
+#copyrightText {
+    transform: translateY(-50%);
+}
